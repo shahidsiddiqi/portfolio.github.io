@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shahid Siddiqui | Web Developer</title>
+            
+            <!-- BootStrap File Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Font Family -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"rel="stylesheet"/> 
+        
+            <!-- CSS File Link -->
+        <link rel="stylesheet" href="./style.css" type="text/css" />
+        <script src="./theme.js"></script>
+
+    </head>
+    <body>
+        <!------------------- Header (NavBar Section) ----------------->
+        <nav class="navbar navbar-expand-lg fixed-top head bg-black">
+          <div class="container-fluid pe-5">
+            <a class="navbar-brand logo" href="#home">Shahid <span>Siddiqui</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background: var(--main-clr);">
+              <span class="navbar-toggler-icon" id="button"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav navlist bg-black">
+                <li class="nav-item"id="navlist">
+                  <a class="nav-link ps-2 active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  ps-4" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-4" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-4" href="#education">Skill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-4" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item" >
+                  <a class="nav-link ps-4 pe-5" id="mainclr" href="#contact">HIRE ME</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!----------------- End of Header Section ------------------->
+        <!----------------- Home (Banner Section) ------------------->
+
+        <div class="container-fluid home-text sect" id="home">
+          <div class="row ps-5">
+            <div class="col col-md-6 col-sm-12 text-center text-md-start pt-5 mt-5">
+                <h3>Hello, I'm</h3>
+                <h1>Shahid Siddiqui</h1>
+                <h5>Web Developer <span>from India</span></h5>
+                <p>
+                    I'm always interested about cool stuff. <br />
+                    Let's talk.
+                </p>
+                <div class="">
+                  <a class="main-btn" id="mainclr"  href="" download onclick="ref()">RESUME</a>
+                </div>
+            </div>
+            <div class="col col-md-6 col-sm-12 home-img pt-5 mt-5 justify-content-center   ">
+                <img src="ME.png" class="img-fluid pt-3" alt="Image Not Found" />
+            </div>
+          </div>
+        </div>
+
+         <!-------------- About --------------->
+        <div class="container-fluid about ps-5 mt-5 pt-5 pb-sm-5 mb-sm-5" id="about" style="position: relative;">
+         <h1 align=center>ABOUT</h1>
+            <div class="heading">
+             <!--   <h3>About</h3>  -->
+                <h2>Hello there!</h2>
+            </div>
+            <div class="row space-between-content ">
+                <div class="col-6 col-400-12 about-img " >
+                    <img
+                        src="image2.png" 
+                        class="img-fluid ms-5"
+                        alt="Image Not Found"
+                    />
+                </div>
+                <div class="col-6 about-text ps-sm-5 pe-5" style="height:250px;text-align:justify-all; position: relative;overflow: hidden;">
+                    <h3>I'm Shahid Siddiqui</h3>
+                    <h2>I am a WEB developer</h2>
+                    <p class="text-responsive" id="texres" >
+                        I'm very passionate and dedicated to my work. I have
+                        acquired the skills and knowledge necessary to make your
+                        project a success. I like to create sketches and I'm
+                        always curious to learn more about new technologies and
+                        creative coding.
+                        <br />
+                      
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+  <!---------------- Education  ------------------->
+		<section style="position: relative;">
+        <div class="container-fluid pt-md-5 pt-sm-5 mt-sm-5" id="education">
+        <h1 align=center>EDUCATION</h1> 
+            <div class="row justify-content-center">
+            <div class="col ">
+            <div class="sub-box ">
+                
+                <h3 id="mainclr" align="center">10<sup>th</sup></h3>
+                    <ul class=" mt-3"> 
+                    <li>Sufi Saint Sec. School Ajmer.</li>
+                    <li>Rajasthan Board Of Secondary Education.</li>
+                    <li>All Main 6 Subjects</li>
+                    <li>Percentage : 67.50%</li>
+                    <li>2017</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="sub-box">
+              
+                <h3 align="center" id="mainclr">12<sup>th</sup></h3>
+                    <ul class=" mt-3">
+                    <li>Moiniya Islamiya Sr. Sec. School Ajmer.</li>
+                    <li>Rajasthan Board Of Secondary Education.</li>
+                    <li>All Main 5 Subjects</li>
+                    <li>Percentage : 50%</li>
+                    <li>2019</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="sub-box">
+                <div class="sub-img">
+                    <!-- <img src="" alt="" class="img-fluid" /> -->
+                </div>
+                <h3 align="center" id="mainclr">B.A.</h3>
+                    <ul class="list-unstyled mt-3">
+                    <li>GOVT. College of Ajmer.</li>
+                    <li>Maharshi Dayanand Saraswati University</li>
+                    <li>URDU , History , Sociology</li>
+                    <li>Percentage : 50%</li>
+                    <li>2020-2022</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>  
+ <!-------------- Contact --------------->
+		
+        <div class="container-fluid pt-5">
+            <h1 align=center   id="mainclr">CONTACT</h1>
+        <div class="contact sect" id="contact">
+            <div class="heading">
+             <!--   <h3>Contact</h3>  -->
+                <h2>Get in touch</h2>
+            </div>
+            <div class="row justify-content-center">
+            <div class="col">
+            <div class="form">
+                <h3 id="mobile" style="margin-bottom: 0px">+91 6350***800</h3>
+                <h3 id="mobile" style="margin-bottom: 0px">iamshahid.ajmer@gmail.com</h3>
+                <form>
+                    <input id="name" type="text" placeholder="Enter your name"/>
+                    <input id="email" type="email" placeholder="Enter your email"/>
+                    <textarea id="message" type="text" placeholder="Enter your massage" cols="30" rows="10" ></textarea>
+                    <input id="tbtn" type="submit" value="SUBMIT" />
+                </form>
+            </div>
+        </div>
+            <div class="col pt-5 justify-content-center">
+                <iframe style="filter: grayscale(90%); border-radius: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d174.69221144940155!2d74.6279015366588!3d26.46399307061508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1684452649439!5m2!1sen!2sin" width="550" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+      </div>
+    </div>  
+    <section class="">
+        <p align="center">Made by Shahid Siddiqui 2023 ©</p>
+    </section>
+    </body>
+     <script src="https://unpkg.com/scrollreveal"></script>
+        <script type="text/javascript" src="./index.js"></script>
+        <script src="./form.js"></script>
+
+</html>
